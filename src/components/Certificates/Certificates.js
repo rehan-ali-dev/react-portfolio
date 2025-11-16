@@ -17,6 +17,9 @@ import lums from "../../Assets/Certificates/LUMS.png"
 import ownership from "../../Assets/Certificates/Ownership_Execution.jpg"
 import pmp from "../../Assets/Certificates/PMP_TRAINING.jpg"
 import fuel from "../../Assets/Certificates/PTCL_FUEL.jpg"
+import NamasteDevJS from "../../Assets/Certificates/NamasteDevCertificate.webp"
+import WebDesign from "../../Assets/Certificates/WebDesign.png"
+import AlgorithmCourse from "../../Assets/Certificates/Algorithms_DataStructures.png"
 import Card from "../Cards/Cards";
 
 
@@ -34,160 +37,30 @@ function Certificates() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
         <Col md={4} className="project-card">
             <Card
-              imgPath={aiSummit}
+              imgPath={NamasteDevJS}
               isBlog={false}
-              title="AI Summit 2024"
-              description="Participated in AI Summit 2024 organized by 10Pearls and attended several workshops related to Generative AI"
-              isAchievement="10 Pearls"
+              title="NamasteDev Javascript"
+              description="Completed the Namaste JavaScript course, a comprehensive deep-dive into JavaScript fundamentals and internal mechanics. The course strengthened my understanding of how JavaScript works under the hood, enabling me to write more predictable, efficient, and error-free code."
+              isAchievement="NamasteDev"
             />
           </Col>
           <Col md={4} className="project-card">
             <Card
-              imgPath={lums}
+              imgPath={AlgorithmCourse}
               isBlog={false}
-              title="Achieving Leadership Excellence"
-              description="Participated in 1 week leadership workship at LUMS"
-              isAchievement="LUMS"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <Card
-              imgPath={franklinCovey}
-              isBlog={false}
-              title="Seven Habits of Highly Effective People"
-              description="The seven habits of highly effective people training by Franklin Covey"
-              isAchievement="Franklin Covey"
+              title="Algorithm Course"
+              description="Completed the JavaScript Data Structures and Algorithms certification from FreeCodeCamp, gaining a solid foundation in core algorithmic concepts and problem-solving techniques essential for modern JavaScript development."
+              isAchievement="FreeCodeCamp"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <Card
-              imgPath={EOM_MARCH}
+              imgPath={WebDesign}
               isBlog={false}
-              title="Employee of Month"
-              description="Got employee of the month recognition for the month of March,2024 at Focusteck"
-              isAchievement="Focusteck"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <Card
-              imgPath={EOM_AUGUST}
-              isBlog={false}
-              title="Employee of Month"
-              description="Got employee of the month recognition for the month of August,2023 at Focusteck"
-              isAchievement="Focusteck"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <Card
-              imgPath={EOM_JUNE}
-              isBlog={false}
-              title="Employee of Month"
-              description="Got employee of the month recognition for the month of June,2023 at Focusteck"
-              isAchievement="Focusteck"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <Card
-              imgPath={digitalTraining}
-              isBlog={false}
-              title="Digital Training Warrior"
-              description="Participated in workshop for effective and engaging digital training by Dr. Sunil Gupta"
-              isAchievement="IDEAS Management Consultant"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <Card
-              imgPath={engageConsultants}
-              isBlog={false}
-              title="Future Leaders"
-              description="Training program to build leadership skills by engage consultants led by Mr. Paul Keizer"
-              isAchievement="Engage Consultants"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <Card
-              imgPath={fuel}
-              isBlog={false}
-              title="Future Leaders"
-              description="2 years training program to build leadership skills"
-              isAchievement="PTCL"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <Card
-              imgPath={pmp}
-              isBlog={false}
-              title="PMP Training"
-              description="Successully completed 36 hours of PMP training, a pre-requisite for PMP certification"
-              isAchievement="PTCL"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <Card
-              imgPath={HMM}
-              isBlog={false}
-              title="Harvard Manage Mentor"
-              description="Successully completed course of Harvard Manage Mentor thorugh digital learning initiative, it covers management topics of conflict management & change management"
-              isAchievement="PTCL"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <Card
-              imgPath={collaboration}
-              isBlog={false}
-              title="Collaboration & Alignment"
-              description="Participated in workshop related to inter and intra teams collaboration and alignment of team(s) with organization goals,missions and vision"
-              isAchievement="PTCL"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <Card
-              imgPath={innovativeThinking}
-              isBlog={false}
-              title="Creative and Innovative thinking"
-              description="Participated in workshop focussing on creative and innovative thinking "
-              isAchievement="PTCL"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <Card
-              imgPath={managerialExcellence}
-              isBlog={false}
-              title="Developing Managerial Excellence"
-              description="Participated in workshop helping to develop managerial skills"
-              isAchievement="PTCL"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <Card
-              imgPath={impactfulManagement}
-              isBlog={false}
-              title="Impactful Management"
-              description="Workshop focuessed on management with impact in organization"
-              isAchievement="PTCL"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <Card
-              imgPath={ownership}
-              isBlog={false}
-              title="Taking Ownership and Speedy Execution"
-              description="Workshop focusses on how to take ownership and deliver efficiently"
-              isAchievement="PTCL"
+              title="Web Design course"
+              description="Completed the Responsive Web Design certification from FreeCodeCamp, covering the core building blocks of modern web development — HTML, CSS, and Bootstrap. This course focused on designing clean, responsive, and user-friendly web interfaces."
+              isAchievement="FreeCodeCamp"
             />
           </Col>
           

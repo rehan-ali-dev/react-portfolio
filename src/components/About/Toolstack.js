@@ -13,8 +13,11 @@ import {
   SiConfluence,
   SiDocker,
   SiAmazonaws,
-  SiAndroidstudio
+  SiAndroidstudio,
+  SiCypress,
+  SiMiro
 } from "react-icons/si";
+import { BsFillCursorFill } from "react-icons/bs";
 
 function Toolstack() {
   return (
@@ -30,6 +33,10 @@ function Toolstack() {
       <Col xs={4} md={2} className="tech-icons">
         <SiGithub />
         <span className="hover-text"> Github</span>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <BsFillCursorFill />
+        <span className="hover-text"> Cursor</span>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiAndroidstudio />
@@ -52,25 +59,33 @@ function Toolstack() {
         <span className="hover-text">  Google Meet</span>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
+        <SiClickup />
+        <span className="hover-text"> ClickUp</span>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
         <SiJira />
         <span className="hover-text">JIRA</span>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiClickup />
-        <span className="hover-text"> ClickUp</span>
-      </Col>
-      {/* <Col xs={4} md={2} className="tech-icons">
         <SiConfluence />
         <span className="hover-text">Confluence</span>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
+        <SiMiro />
+        <span className="hover-text"> Miro</span>
+      </Col>
+      {/* <Col xs={4} md={2} className="tech-icons">
         <SiDocker />
         <span className="hover-text">Docker</span>
-      </Col>
+      </Col> */}
       <Col xs={4} md={2} className="tech-icons">
         <SiAmazonaws />
         <span className="hover-text">AWS</span>
-      </Col> */}
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiCypress />
+        <span className="hover-text">Cypress</span>
+      </Col>
     </Row>
   );
 }

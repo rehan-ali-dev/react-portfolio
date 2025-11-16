@@ -1,7 +1,7 @@
 export const PROFILE = {
     name: 'Rehan Ali',
-    proffesion: "Software Developer",
+    proffesion: "Senior Software Engineer",
     expertise: "MERN Stack Developer",
-    githubLink: "https://github.com/mrehanali127",
+    githubLink: "https://github.com/rehan-ali-dev",
     linkedInLink: "https://www.linkedin.com/in/muhammadrehanali/",
 }

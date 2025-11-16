@@ -28,6 +28,10 @@ import {
   SiOpenai,
   SiOpensearch,
   SiElasticsearch,
+  SiTailwindcss,
+  SiMui,
+  SiReactquery,
+  SiStrapi
 } from "react-icons/si";
 
 function Techstack() {
@@ -71,12 +75,28 @@ function Techstack() {
         <span className="hover-text">NextJs</span>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
+        <SiTailwindcss />
+        <span className="hover-text"> Tailwind</span>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiMui />
+        <span className="hover-text"> Material UI</span>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiReactquery />
+        <span className="hover-text">React Query</span>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
         <DiNodejs />
         <span className="hover-text">Node Js</span>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiExpress />
         <span className="hover-text">Express</span>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiStrapi />
+        <span className="hover-text"> Strapi CMS</span>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiMongodb />
@@ -89,6 +109,10 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <SiFirebase />
         <span className="hover-text">Firebase</span>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiAmazonaws />
+        <span className="hover-text">AWS</span>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiPython />

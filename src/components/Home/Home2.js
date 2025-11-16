@@ -26,7 +26,7 @@ function Home2() {
             </i>
              with a specialization in JavaScript development. With 
              <i> 
-                <b className="purple"> 2 years experience  &nbsp; 
+                <b className="purple"> 4 years experience  &nbsp; 
                 </b>
             </i>
              of building dynamic and responsive web applications, I have expertise in designing and implementing the front end of web and mobile applications using React.js, React Native, HTML, CSS, JavaScript, and TypeScript.
@@ -40,14 +40,15 @@ function Home2() {
                 </b>
             </i>
             trends and technologies.
+            Capable of working independently from remote places or in an office environment as needed.
               <br />
               <br />
               My field of Interest's are building &nbsp;
               <i>
-                <b className="purple">websites </b> and
-                also interested in crafting{" "}
+                <b className="purple">interactive and responsive websites </b> and
+                also interested in crafting performant and scalable{" "}
                 <b className="purple">
-                  mobile apps.
+                  mobile applications.
                 </b>
               </i>
             </p>
